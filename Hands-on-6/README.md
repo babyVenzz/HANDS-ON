@@ -34,8 +34,8 @@ También reporta errores sintácticos y lexicos de la anterior implementacion.
 
 1. Generar el parser y lexer usando Flex y Bison:
 
-bison -d parser.y        # genera parser.tab.c y parser.tab.h
-flex lexer.l             # genera lex.yy.c
-gcc lex.yy.c parser.tab.c -o semantico
+- bison -d parser.y        
+- flex lexer.l             
+- gcc lex.yy.c parser.tab.c -o semantico
 
 
